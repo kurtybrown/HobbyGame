@@ -1,0 +1,15 @@
+"use strict";
+exports.__esModule = true;
+var hobbyGame_1 = require("./hobbyGame");
+var persona1 = new hobbyGame_1.Person("Felipe", "portugues", "developer", 12);
+var persona2 = new hobbyGame_1.Person("Omar", "guinean", "tester", 3);
+var persona3 = new hobbyGame_1.Person("Candela", "uruguayan", "developer", 4);
+var persona4 = new hobbyGame_1.Person("Amelia", "italian", "director", 19);
+persona1.setName("Gabriel");
+persona2.setNationality("albanian");
+persona3.setProfession("manager");
+persona4.setExperienceYears(23);
+persona1.showAttributesConsole();
+console.log(persona2.getNationality());
+console.log(persona3.getProfession());
+persona4.showAttributes();
